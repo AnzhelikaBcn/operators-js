@@ -1,18 +1,18 @@
-// Переменные с баллами по модулям
+// Variables with module scores
 const introductionScore = 90;
 const gitScore = 85;
 const jsScore = 95;
 
-// Расчет среднего балла
+// GPA Calculation
 const averageScore = (introductionScore + gitScore + jsScore) / 3;
 
-// Имя и фамилия студента
-const firstName = "Анжелика";
-const lastName = "Пикулина";
+// Student's first and last name
+const firstName = "Anzhelika";
+const lastName = "Pikulina";
 
-// Вывод результата в консоль с использованием шаблонных строк
-console.log(`Студент: ${firstName} ${lastName}`);
-console.log(`Баллы по модулю "Введение": ${introductionScore}`);
-console.log(`Баллы по модулю "Git": ${gitScore}`);
-console.log(`Баллы по модулю "JS": ${jsScore}`);
-console.log(`Средний балл: ${averageScore}`);
+// Outputting the result to the console using template strings
+console.log(`Student: ${firstName} ${lastName}`);
+console.log(`Points for the module "Introduction": ${introductionScore}`);
+console.log(`Points for the module "Git": ${gitScore}`);
+console.log(`Points for the module "JS": ${jsScore}`);
+console.log(`Average score: ${averageScore}`);
